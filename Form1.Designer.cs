@@ -32,11 +32,13 @@ namespace Calculator_Irica
             this.Nbr_1 = new System.Windows.Forms.Button();
             this.Nbr_2 = new System.Windows.Forms.Button();
             this.Nbr_3 = new System.Windows.Forms.Button();
+            this.Nbr_4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Nbr_1
             // 
             this.Nbr_1.BackColor = System.Drawing.Color.FloralWhite;
+            this.Nbr_1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Nbr_1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Nbr_1.ForeColor = System.Drawing.SystemColors.GrayText;
             this.Nbr_1.Location = new System.Drawing.Point(12, 206);
@@ -49,6 +51,7 @@ namespace Calculator_Irica
             // Nbr_2
             // 
             this.Nbr_2.BackColor = System.Drawing.Color.FloralWhite;
+            this.Nbr_2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Nbr_2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Nbr_2.ForeColor = System.Drawing.SystemColors.GrayText;
             this.Nbr_2.Location = new System.Drawing.Point(98, 206);
@@ -63,6 +66,7 @@ namespace Calculator_Irica
             // Nbr_3
             // 
             this.Nbr_3.BackColor = System.Drawing.Color.FloralWhite;
+            this.Nbr_3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Nbr_3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Nbr_3.ForeColor = System.Drawing.SystemColors.GrayText;
             this.Nbr_3.Location = new System.Drawing.Point(184, 206);
@@ -72,6 +76,19 @@ namespace Calculator_Irica
             this.Nbr_3.Text = "3";
             this.Nbr_3.UseVisualStyleBackColor = false;
             // 
+            // Nbr_4
+            // 
+            this.Nbr_4.BackColor = System.Drawing.Color.FloralWhite;
+            this.Nbr_4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Nbr_4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Nbr_4.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.Nbr_4.Location = new System.Drawing.Point(270, 206);
+            this.Nbr_4.Name = "Nbr_4";
+            this.Nbr_4.Size = new System.Drawing.Size(80, 80);
+            this.Nbr_4.TabIndex = 3;
+            this.Nbr_4.Text = "4";
+            this.Nbr_4.UseVisualStyleBackColor = false;
+            // 
             // Calculator_Main
             // 
             this.AllowDrop = true;
@@ -79,6 +96,7 @@ namespace Calculator_Irica
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(447, 539);
+            this.Controls.Add(this.Nbr_4);
             this.Controls.Add(this.Nbr_3);
             this.Controls.Add(this.Nbr_2);
             this.Controls.Add(this.Nbr_1);
@@ -98,6 +116,7 @@ namespace Calculator_Irica
         public System.Windows.Forms.Button Nbr_1;
         private System.Windows.Forms.Button Nbr_2;
         private System.Windows.Forms.Button Nbr_3;
+        private System.Windows.Forms.Button Nbr_4;
     }
 }
 
