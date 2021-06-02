@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace Calculator_Irica
 {
-    public partial class Form1 : Form
+    public partial class Calculator_Main : Form
     {
-        public Form1()
+        public Calculator_Main()
         {
             InitializeComponent();
         }
 
+        private void Nbr_2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
