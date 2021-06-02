@@ -33,6 +33,7 @@ namespace Calculator_Irica
             this.Nbr_2 = new System.Windows.Forms.Button();
             this.Nbr_3 = new System.Windows.Forms.Button();
             this.Nbr_4 = new System.Windows.Forms.Button();
+            this.Box_Ans = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // Nbr_1
@@ -89,6 +90,18 @@ namespace Calculator_Irica
             this.Nbr_4.Text = "4";
             this.Nbr_4.UseVisualStyleBackColor = false;
             // 
+            // Box_Ans
+            // 
+            this.Box_Ans.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Box_Ans.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Box_Ans.Location = new System.Drawing.Point(12, 12);
+            this.Box_Ans.Name = "Box_Ans";
+            this.Box_Ans.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Box_Ans.Size = new System.Drawing.Size(423, 146);
+            this.Box_Ans.TabIndex = 4;
+            this.Box_Ans.Text = "";
+            this.Box_Ans.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
             // Calculator_Main
             // 
             this.AllowDrop = true;
@@ -96,6 +109,7 @@ namespace Calculator_Irica
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(447, 539);
+            this.Controls.Add(this.Box_Ans);
             this.Controls.Add(this.Nbr_4);
             this.Controls.Add(this.Nbr_3);
             this.Controls.Add(this.Nbr_2);
@@ -117,6 +131,7 @@ namespace Calculator_Irica
         private System.Windows.Forms.Button Nbr_2;
         private System.Windows.Forms.Button Nbr_3;
         private System.Windows.Forms.Button Nbr_4;
+        private System.Windows.Forms.RichTextBox Box_Ans;
     }
 }
 
