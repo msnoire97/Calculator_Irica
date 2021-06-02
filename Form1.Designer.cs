@@ -31,6 +31,7 @@ namespace Calculator_Irica
         {
             this.Nbr_1 = new System.Windows.Forms.Button();
             this.Nbr_2 = new System.Windows.Forms.Button();
+            this.Nbr_3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Nbr_1
@@ -59,6 +60,18 @@ namespace Calculator_Irica
             this.Nbr_2.Visible = false;
             this.Nbr_2.Click += new System.EventHandler(this.Nbr_2_Click);
             // 
+            // Nbr_3
+            // 
+            this.Nbr_3.BackColor = System.Drawing.Color.FloralWhite;
+            this.Nbr_3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Nbr_3.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.Nbr_3.Location = new System.Drawing.Point(184, 206);
+            this.Nbr_3.Name = "Nbr_3";
+            this.Nbr_3.Size = new System.Drawing.Size(80, 80);
+            this.Nbr_3.TabIndex = 2;
+            this.Nbr_3.Text = "3";
+            this.Nbr_3.UseVisualStyleBackColor = false;
+            // 
             // Calculator_Main
             // 
             this.AllowDrop = true;
@@ -66,6 +79,7 @@ namespace Calculator_Irica
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(447, 539);
+            this.Controls.Add(this.Nbr_3);
             this.Controls.Add(this.Nbr_2);
             this.Controls.Add(this.Nbr_1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -83,6 +97,7 @@ namespace Calculator_Irica
 
         public System.Windows.Forms.Button Nbr_1;
         private System.Windows.Forms.Button Nbr_2;
+        private System.Windows.Forms.Button Nbr_3;
     }
 }
 
