@@ -17,24 +17,17 @@ namespace Calculator_Irica
             InitializeComponent();
         }
 
-        private void Nbr_2_Click(object sender, EventArgs e)
+        private void nbr_click(object sender, EventArgs e)
         {
+            Button button = (Button)sender;
+            box_sol.Text = box_sol.Text + button.Text;
 
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void optr_click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Calculator_Main_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
+            Button button = (Button)sender;
+            box_sol.Text = box_sol.Text + button.Text;
         }
     }
 }
