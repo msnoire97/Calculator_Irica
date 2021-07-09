@@ -57,8 +57,8 @@ namespace Calculator_Irica
             this.nbr_deci = new System.Windows.Forms.Button();
             this.nbr_zero = new System.Windows.Forms.Button();
             this.optr_ans = new System.Windows.Forms.Button();
-            this.box_ans = new System.Windows.Forms.Label();
-            this.box_sol = new System.Windows.Forms.TextBox();
+            this.label_CurrentStatus = new System.Windows.Forms.Label();
+            this.box_display = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // nbr_seven
@@ -441,28 +441,29 @@ namespace Calculator_Irica
             this.optr_ans.TabIndex = 19;
             this.optr_ans.Text = "=";
             this.optr_ans.UseVisualStyleBackColor = false;
-            this.optr_ans.Click += new System.EventHandler(this.ftn_ans);
+            this.optr_ans.Click += new System.EventHandler(this.ftn_equals);
             // 
-            // box_ans
+            // label_CurrentStatus
             // 
-            this.box_ans.AutoSize = true;
-            this.box_ans.BackColor = System.Drawing.Color.LightGray;
-            this.box_ans.Location = new System.Drawing.Point(13, 23);
-            this.box_ans.Name = "box_ans";
-            this.box_ans.Size = new System.Drawing.Size(59, 25);
-            this.box_ans.TabIndex = 24;
-            this.box_ans.Text = "label1";
+            this.label_CurrentStatus.AutoSize = true;
+            this.label_CurrentStatus.BackColor = System.Drawing.Color.LightGray;
+            this.label_CurrentStatus.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label_CurrentStatus.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label_CurrentStatus.Location = new System.Drawing.Point(13, 27);
+            this.label_CurrentStatus.Name = "label_CurrentStatus";
+            this.label_CurrentStatus.Size = new System.Drawing.Size(0, 21);
+            this.label_CurrentStatus.TabIndex = 24;
             // 
-            // box_sol
+            // box_display
             // 
-            this.box_sol.Font = new System.Drawing.Font("SimSun-ExtB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.box_sol.Location = new System.Drawing.Point(13, 51);
-            this.box_sol.Name = "box_sol";
-            this.box_sol.ReadOnly = true;
-            this.box_sol.Size = new System.Drawing.Size(323, 35);
-            this.box_sol.TabIndex = 25;
-            this.box_sol.Text = "0";
-            this.box_sol.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.box_display.Font = new System.Drawing.Font("SimSun-ExtB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.box_display.Location = new System.Drawing.Point(13, 51);
+            this.box_display.Name = "box_display";
+            this.box_display.ReadOnly = true;
+            this.box_display.Size = new System.Drawing.Size(323, 35);
+            this.box_display.TabIndex = 25;
+            this.box_display.Text = "0";
+            this.box_display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Calculator_Main
             // 
@@ -471,8 +472,8 @@ namespace Calculator_Irica
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(345, 378);
-            this.Controls.Add(this.box_sol);
-            this.Controls.Add(this.box_ans);
+            this.Controls.Add(this.box_display);
+            this.Controls.Add(this.label_CurrentStatus);
             this.Controls.Add(this.optr_div);
             this.Controls.Add(this.nbr_deci);
             this.Controls.Add(this.nbr_zero);
@@ -533,8 +534,8 @@ namespace Calculator_Irica
         public System.Windows.Forms.Button nbr_deci;
         public System.Windows.Forms.Button nbr_zero;
         public System.Windows.Forms.Button optr_ans;
-        private System.Windows.Forms.Label box_ans;
-        private System.Windows.Forms.TextBox box_sol;
+        private System.Windows.Forms.Label label_CurrentStatus;
+        private System.Windows.Forms.TextBox box_display;
     }
 }
 
