@@ -30,6 +30,35 @@ namespace Calculator_Irica
             box_sol.Text += button.Text;
          }
 
+        private void deci_click(object sender, EventArgs e)
+        {
+            if (!box_sol.Text.Contains("."))
+            {
+                box_sol.Text += ".";
+            }
+
+        }
+
+        private void optr_click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+
+            if (resultVal != 0)
+            {
+                optr_ans.PerformClick();
+                operation = button.Text;
+                OptrPerf = true;
+            }
+            else
+            {
+                operation = button.Text;
+                resultVal = Decimal.Parse(box_sol.Text);
+                box_ans.Text = resultVal + " " + operation;
+                OptrPerf = true;
+            }
+        }
+
+
 
     }
 }
