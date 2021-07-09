@@ -69,7 +69,32 @@ namespace Calculator_Irica
             resultVal = 0;
         }
 
+        private void ftn_ans(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            switch (operation)
+            {
+                case "+":
+                    box_sol.Text = (resultVal + Decimal.Parse(box_sol.Text)).ToString();
+                    break;
 
+                case "-":
+                    box_sol.Text = (resultVal - Decimal.Parse(box_sol.Text)).ToString();
+                    break;
+
+                case "*":
+                    box_sol.Text = (resultVal * Decimal.Parse(box_sol.Text)).ToString();
+                    break;
+
+                case "/":
+                    box_sol.Text = (resultVal / Decimal.Parse(box_sol.Text)).ToString();
+                    break;
+
+                default:
+                    break;
+            }
+            resultVal = Decimal.Parse(box_sol.Text);
+        }
 
     }
 }
