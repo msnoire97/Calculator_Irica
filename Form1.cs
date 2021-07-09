@@ -58,6 +58,17 @@ namespace Calculator_Irica
             }
         }
 
+        private void ftn_clear(object sender, EventArgs e)
+        {
+            box_sol.Text = "0";
+        }
+
+        private void ftn_clrall(object sender, EventArgs e)
+        {
+            box_sol.Text = "0";
+            resultVal = 0;
+        }
+
 
 
     }
