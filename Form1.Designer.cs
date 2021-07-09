@@ -259,6 +259,7 @@ namespace Calculator_Irica
             this.ftn_del.TabIndex = 8;
             this.ftn_del.Text = "CE";
             this.ftn_del.UseVisualStyleBackColor = false;
+            this.ftn_del.Click += new System.EventHandler(this.ftn_clear);
             // 
             // optr_sub
             // 
@@ -272,6 +273,7 @@ namespace Calculator_Irica
             this.optr_sub.TabIndex = 12;
             this.optr_sub.Text = "-";
             this.optr_sub.UseVisualStyleBackColor = false;
+            this.optr_sub.Click += new System.EventHandler(this.optr_click);
             // 
             // nbr_six
             // 
@@ -327,6 +329,7 @@ namespace Calculator_Irica
             this.ftn_clr.TabIndex = 18;
             this.ftn_clr.Text = "C";
             this.ftn_clr.UseVisualStyleBackColor = false;
+            this.ftn_clr.Click += new System.EventHandler(this.ftn_clrall);
             // 
             // optr_mul
             // 
@@ -340,6 +343,7 @@ namespace Calculator_Irica
             this.optr_mul.TabIndex = 17;
             this.optr_mul.Text = "*";
             this.optr_mul.UseVisualStyleBackColor = false;
+            this.optr_mul.Click += new System.EventHandler(this.optr_click);
             // 
             // nbr_three
             // 
@@ -395,6 +399,7 @@ namespace Calculator_Irica
             this.optr_div.TabIndex = 23;
             this.optr_div.Text = "/";
             this.optr_div.UseVisualStyleBackColor = false;
+            this.optr_div.Click += new System.EventHandler(this.optr_click);
             // 
             // nbr_deci
             // 
@@ -408,7 +413,7 @@ namespace Calculator_Irica
             this.nbr_deci.TabIndex = 22;
             this.nbr_deci.Text = ".";
             this.nbr_deci.UseVisualStyleBackColor = false;
-            this.nbr_deci.Click += new System.EventHandler(this.nbr_click);
+            this.nbr_deci.Click += new System.EventHandler(this.deci_click);
             // 
             // nbr_zero
             // 
@@ -436,6 +441,7 @@ namespace Calculator_Irica
             this.optr_ans.TabIndex = 19;
             this.optr_ans.Text = "=";
             this.optr_ans.UseVisualStyleBackColor = false;
+            this.optr_ans.Click += new System.EventHandler(this.ftn_ans);
             // 
             // box_ans
             // 
@@ -452,8 +458,11 @@ namespace Calculator_Irica
             this.box_sol.Font = new System.Drawing.Font("SimSun-ExtB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.box_sol.Location = new System.Drawing.Point(13, 51);
             this.box_sol.Name = "box_sol";
+            this.box_sol.ReadOnly = true;
             this.box_sol.Size = new System.Drawing.Size(323, 35);
             this.box_sol.TabIndex = 25;
+            this.box_sol.Text = "0";
+            this.box_sol.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Calculator_Main
             // 
