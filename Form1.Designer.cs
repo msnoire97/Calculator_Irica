@@ -67,7 +67,7 @@ namespace Calculator_Irica
             this.nbr_seven.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_seven.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_seven.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_seven.Location = new System.Drawing.Point(11, 108);
+            this.nbr_seven.Location = new System.Drawing.Point(11, 101);
             this.nbr_seven.Name = "nbr_seven";
             this.nbr_seven.Size = new System.Drawing.Size(60, 60);
             this.nbr_seven.TabIndex = 0;
@@ -81,7 +81,7 @@ namespace Calculator_Irica
             this.nbr_eight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_eight.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_eight.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_eight.Location = new System.Drawing.Point(77, 108);
+            this.nbr_eight.Location = new System.Drawing.Point(77, 101);
             this.nbr_eight.Name = "nbr_eight";
             this.nbr_eight.Size = new System.Drawing.Size(60, 60);
             this.nbr_eight.TabIndex = 5;
@@ -95,7 +95,7 @@ namespace Calculator_Irica
             this.nbr_nine.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_nine.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_nine.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_nine.Location = new System.Drawing.Point(143, 108);
+            this.nbr_nine.Location = new System.Drawing.Point(143, 101);
             this.nbr_nine.Name = "nbr_nine";
             this.nbr_nine.Size = new System.Drawing.Size(60, 60);
             this.nbr_nine.TabIndex = 6;
@@ -109,7 +109,7 @@ namespace Calculator_Irica
             this.optr_add.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.optr_add.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.optr_add.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.optr_add.Location = new System.Drawing.Point(209, 108);
+            this.optr_add.Location = new System.Drawing.Point(209, 101);
             this.optr_add.Name = "optr_add";
             this.optr_add.Size = new System.Drawing.Size(60, 60);
             this.optr_add.TabIndex = 7;
@@ -253,7 +253,7 @@ namespace Calculator_Irica
             this.ftn_del.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ftn_del.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ftn_del.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ftn_del.Location = new System.Drawing.Point(275, 108);
+            this.ftn_del.Location = new System.Drawing.Point(275, 101);
             this.ftn_del.Name = "ftn_del";
             this.ftn_del.Size = new System.Drawing.Size(60, 60);
             this.ftn_del.TabIndex = 8;
@@ -267,7 +267,7 @@ namespace Calculator_Irica
             this.optr_sub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.optr_sub.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.optr_sub.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.optr_sub.Location = new System.Drawing.Point(209, 174);
+            this.optr_sub.Location = new System.Drawing.Point(209, 167);
             this.optr_sub.Name = "optr_sub";
             this.optr_sub.Size = new System.Drawing.Size(60, 60);
             this.optr_sub.TabIndex = 12;
@@ -281,7 +281,7 @@ namespace Calculator_Irica
             this.nbr_six.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_six.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_six.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_six.Location = new System.Drawing.Point(143, 174);
+            this.nbr_six.Location = new System.Drawing.Point(143, 167);
             this.nbr_six.Name = "nbr_six";
             this.nbr_six.Size = new System.Drawing.Size(60, 60);
             this.nbr_six.TabIndex = 11;
@@ -295,7 +295,7 @@ namespace Calculator_Irica
             this.nbr_five.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_five.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_five.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_five.Location = new System.Drawing.Point(77, 174);
+            this.nbr_five.Location = new System.Drawing.Point(77, 167);
             this.nbr_five.Name = "nbr_five";
             this.nbr_five.Size = new System.Drawing.Size(60, 60);
             this.nbr_five.TabIndex = 10;
@@ -309,7 +309,7 @@ namespace Calculator_Irica
             this.nbr_four.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_four.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_four.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_four.Location = new System.Drawing.Point(11, 174);
+            this.nbr_four.Location = new System.Drawing.Point(11, 167);
             this.nbr_four.Name = "nbr_four";
             this.nbr_four.Size = new System.Drawing.Size(60, 60);
             this.nbr_four.TabIndex = 9;
@@ -323,7 +323,7 @@ namespace Calculator_Irica
             this.ftn_clr.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ftn_clr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ftn_clr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ftn_clr.Location = new System.Drawing.Point(275, 174);
+            this.ftn_clr.Location = new System.Drawing.Point(275, 167);
             this.ftn_clr.Name = "ftn_clr";
             this.ftn_clr.Size = new System.Drawing.Size(60, 60);
             this.ftn_clr.TabIndex = 18;
@@ -337,7 +337,7 @@ namespace Calculator_Irica
             this.optr_mul.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.optr_mul.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.optr_mul.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.optr_mul.Location = new System.Drawing.Point(209, 240);
+            this.optr_mul.Location = new System.Drawing.Point(209, 233);
             this.optr_mul.Name = "optr_mul";
             this.optr_mul.Size = new System.Drawing.Size(60, 60);
             this.optr_mul.TabIndex = 17;
@@ -351,7 +351,7 @@ namespace Calculator_Irica
             this.nbr_three.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_three.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_three.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_three.Location = new System.Drawing.Point(143, 240);
+            this.nbr_three.Location = new System.Drawing.Point(143, 233);
             this.nbr_three.Name = "nbr_three";
             this.nbr_three.Size = new System.Drawing.Size(60, 60);
             this.nbr_three.TabIndex = 16;
@@ -365,7 +365,7 @@ namespace Calculator_Irica
             this.nbr_two.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_two.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_two.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_two.Location = new System.Drawing.Point(77, 240);
+            this.nbr_two.Location = new System.Drawing.Point(77, 233);
             this.nbr_two.Name = "nbr_two";
             this.nbr_two.Size = new System.Drawing.Size(60, 60);
             this.nbr_two.TabIndex = 15;
@@ -379,7 +379,7 @@ namespace Calculator_Irica
             this.nbr_one.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_one.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_one.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_one.Location = new System.Drawing.Point(11, 240);
+            this.nbr_one.Location = new System.Drawing.Point(11, 233);
             this.nbr_one.Name = "nbr_one";
             this.nbr_one.Size = new System.Drawing.Size(60, 60);
             this.nbr_one.TabIndex = 14;
@@ -393,7 +393,7 @@ namespace Calculator_Irica
             this.optr_div.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.optr_div.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.optr_div.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.optr_div.Location = new System.Drawing.Point(209, 306);
+            this.optr_div.Location = new System.Drawing.Point(209, 299);
             this.optr_div.Name = "optr_div";
             this.optr_div.Size = new System.Drawing.Size(60, 60);
             this.optr_div.TabIndex = 23;
@@ -407,7 +407,7 @@ namespace Calculator_Irica
             this.nbr_deci.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_deci.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_deci.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_deci.Location = new System.Drawing.Point(143, 306);
+            this.nbr_deci.Location = new System.Drawing.Point(143, 299);
             this.nbr_deci.Name = "nbr_deci";
             this.nbr_deci.Size = new System.Drawing.Size(60, 60);
             this.nbr_deci.TabIndex = 22;
@@ -421,7 +421,7 @@ namespace Calculator_Irica
             this.nbr_zero.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.nbr_zero.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nbr_zero.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.nbr_zero.Location = new System.Drawing.Point(11, 306);
+            this.nbr_zero.Location = new System.Drawing.Point(11, 299);
             this.nbr_zero.Name = "nbr_zero";
             this.nbr_zero.Size = new System.Drawing.Size(126, 60);
             this.nbr_zero.TabIndex = 20;
@@ -435,7 +435,7 @@ namespace Calculator_Irica
             this.optr_ans.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.optr_ans.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.optr_ans.ForeColor = System.Drawing.SystemColors.Menu;
-            this.optr_ans.Location = new System.Drawing.Point(275, 240);
+            this.optr_ans.Location = new System.Drawing.Point(275, 233);
             this.optr_ans.Name = "optr_ans";
             this.optr_ans.Size = new System.Drawing.Size(60, 126);
             this.optr_ans.TabIndex = 19;
@@ -447,20 +447,21 @@ namespace Calculator_Irica
             // 
             this.label_CurrentStatus.AutoSize = true;
             this.label_CurrentStatus.BackColor = System.Drawing.Color.LightGray;
-            this.label_CurrentStatus.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label_CurrentStatus.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label_CurrentStatus.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label_CurrentStatus.Location = new System.Drawing.Point(13, 27);
+            this.label_CurrentStatus.Location = new System.Drawing.Point(12, 9);
             this.label_CurrentStatus.Name = "label_CurrentStatus";
-            this.label_CurrentStatus.Size = new System.Drawing.Size(0, 21);
+            this.label_CurrentStatus.Size = new System.Drawing.Size(49, 28);
             this.label_CurrentStatus.TabIndex = 24;
+            this.label_CurrentStatus.Text = "help";
             // 
             // box_display
             // 
-            this.box_display.Font = new System.Drawing.Font("SimSun-ExtB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.box_display.Location = new System.Drawing.Point(13, 51);
+            this.box_display.Font = new System.Drawing.Font("NSimSun", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.box_display.Location = new System.Drawing.Point(11, 40);
             this.box_display.Name = "box_display";
             this.box_display.ReadOnly = true;
-            this.box_display.Size = new System.Drawing.Size(323, 35);
+            this.box_display.Size = new System.Drawing.Size(324, 53);
             this.box_display.TabIndex = 25;
             this.box_display.Text = "0";
             this.box_display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -471,7 +472,7 @@ namespace Calculator_Irica
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(345, 378);
+            this.ClientSize = new System.Drawing.Size(348, 371);
             this.Controls.Add(this.box_display);
             this.Controls.Add(this.label_CurrentStatus);
             this.Controls.Add(this.optr_div);

@@ -13,7 +13,7 @@ namespace Calculator_Irica
     public partial class Calculator_Main : Form
     {
         String OperationUsed = "";
-        Decimal ResultValue = 0;
+        Double ResultValue = 0;
         bool OperationPerformed = false;
         bool OperationCompleted = false;
 
@@ -64,7 +64,7 @@ namespace Calculator_Irica
             else
             {
                 OperationUsed = button.Text;
-                ResultValue = Decimal.Parse(box_display.Text);
+                ResultValue = Double.Parse(box_display.Text);
                 box_display.Text = "0";
                 label_CurrentStatus.Text = ResultValue + " " + OperationUsed;
                 OperationPerformed = true;
@@ -86,33 +86,37 @@ namespace Calculator_Irica
         private void ftn_equals(object sender, EventArgs e)
         {
             if (OperationCompleted == true)
-                ResultValue = Decimal.Parse(box_display.Text);
+            {
+                ResultValue = Double.Parse(box_display.Text);
+                label_CurrentStatus.Text = (ResultValue).ToString();
+                OperationCompleted = false;
+                return;
+            }   
 
             switch (OperationUsed)
             {
                 case "+":
-                    box_display.Text = (ResultValue + Decimal.Parse(box_display.Text)).ToString();
+                    box_display.Text = (ResultValue + Double.Parse(box_display.Text)).ToString();
                     break;
 
                 case "-":
-                    box_display.Text = (ResultValue - Decimal.Parse(box_display.Text)).ToString();
+                    box_display.Text = (ResultValue - Double.Parse(box_display.Text)).ToString();
                     break;
 
                 case "*":
-                    box_display.Text = (ResultValue * Decimal.Parse(box_display.Text)).ToString();
+                    box_display.Text = (ResultValue * Double.Parse(box_display.Text)).ToString();
                     break;
 
                 case "/":
-                    box_display.Text = (ResultValue / Decimal.Parse(box_display.Text)).ToString();
+                    box_display.Text = (ResultValue / Double.Parse(box_display.Text)).ToString();
                     break;
-
+                    
                 default:
                     break;
             }
-            ResultValue = Decimal.Parse(box_display.Text);
+            ResultValue = Double.Parse(box_display.Text);
             label_CurrentStatus.Text = (ResultValue).ToString();
             OperationCompleted = true;
         }
-
     }
 }
